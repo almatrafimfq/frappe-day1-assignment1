@@ -1,0 +1,10 @@
+[
+ {
+  "allow_self_enrollment": 0,
+  "default_course_duration": 2,
+  "docstatus": 0,
+  "doctype": "LMS Settings",
+  "modified": "2026-06-09 13:56:40.843495",
+  "name": "LMS Settings"
+ }
+]

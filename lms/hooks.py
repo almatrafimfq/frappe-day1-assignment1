@@ -5,6 +5,8 @@ app_description = "Learning Management System"
 app_email = "m1.almatrafi@gmail.com"
 app_license = "mit"
 
+fixtures = ["LMS Settings"]
+
 # Apps
 # ------------------
 
