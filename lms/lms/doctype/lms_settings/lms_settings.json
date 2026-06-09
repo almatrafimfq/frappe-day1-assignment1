@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-06-09 11:36:00.934596",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "default_course_duration",
+  "column_break_phay",
+  "allow_self_enrollment"
+ ],
+ "fields": [
+  {
+   "fieldname": "default_course_duration",
+   "fieldtype": "Int",
+   "label": "Default Course Duration"
+  },
+  {
+   "fieldname": "column_break_phay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_self_enrollment",
+   "fieldtype": "Check",
+   "label": "Allow Self Enrollment"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-06-09 13:28:03.196455",
+ "modified_by": "Administrator",
+ "module": "LMS",
+ "name": "LMS Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
