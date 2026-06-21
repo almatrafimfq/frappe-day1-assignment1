@@ -9,6 +9,8 @@
   "title",
   "column_break_bcwv",
   "category",
+  "column_break_keck",
+  "maximum_students",
   "section_break_pgnx",
   "description",
   "section_break_mydx",
@@ -81,12 +83,22 @@
    "label": "Lessons",
    "options": "Course Lesson",
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_keck",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximum_students",
+   "fieldtype": "Int",
+   "label": "Maximum students",
+   "non_negative": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-09 11:21:33.795239",
+ "modified": "2026-06-21 22:03:32.411380",
  "modified_by": "Administrator",
  "module": "LMS",
  "name": "Course",

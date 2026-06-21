@@ -6,4 +6,6 @@ from frappe.model.document import Document
 
 
 class Course(Document):
-	pass
+    def validate(self):
+    if self.maximum_students is not None and self.maximum_students <= 0:
+        frappe.throw(frappe._("Maximum Students must be greater than zero."))
