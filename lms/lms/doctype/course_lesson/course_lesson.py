@@ -6,4 +6,8 @@ from frappe.model.document import Document
 
 
 class CourseLesson(Document):
-	pass
+    def validate(self):
+        if not self.duration:
+            default_duration = frappe.db.get_single_value("LMS Settings", "default_course_duration")
+            if default_duration:
+                self.duration = default_duration
